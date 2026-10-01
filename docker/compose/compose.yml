@@ -1,0 +1,31 @@
+services:
+
+  web:
+    build:
+      context: ../web
+    container_name: velatida-web
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    networks:
+      - velatida-net
+
+  db:
+    image: mariadb:11
+    container_name: velatida-db
+    environment:
+      MARIADB_ROOT_PASSWORD: velatida_root
+      MARIADB_DATABASE: velatida
+      MARIADB_USER: velatida
+      MARIADB_PASSWORD: velatida
+    volumes:
+      - velatida-data:/var/lib/mysql
+    networks:
+      - velatida-net
+
+volumes:
+  velatida-data:
+
+networks:
+  velatida-net:
