@@ -39,13 +39,13 @@ Docker utiliza su propia infraestructura de almacenamiento y redes, independient
 La configuración y documentación relacionada con Docker se organiza en:
 
 docs/
-└── docker/
-    ├── README.md
-    ├── instalacion.md
-    ├── contenedores.md
-    ├── dockerfile.md
-    ├── volumenes.md
-    └── red.md
+  docker/
+    README.md
+    instalacion.md
+    contenedores.md
+    dockerfile.md
+    volumenes.md
+    red.md
 
 -----------
 

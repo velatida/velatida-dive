@@ -7,10 +7,10 @@
 Dentro del directorio principal del proyecto se ha establecido la siguiente estructura:
 
 /srv/asir/velatida-dive/
-├── datos/
-├── documentos/
-├── operativo/
-└── informe.txt
+  datos/
+  documentos/
+  operativo/
+  informe.txt
 
 Los directorios se utilizarán para organizar los diferentes recursos del proyecto y servirán como base para prácticas posteriores de administración y automatización.
 

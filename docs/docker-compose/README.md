@@ -66,8 +66,8 @@ La información de la base de datos se almacena mediante un volumen persistente.
 La configuración se organiza de la siguiente forma:
 
 docker/
-└── compose/
-    └── compose.yml
+  compose/
+    compose.yml
 
 -----------
 

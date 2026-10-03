@@ -81,17 +81,8 @@ dive-client → dive-server:80
 
 La utilización de dos interfaces permite separar las funciones:
 
-enp0s3
-   ↓
-NAT
-   ↓
-Internet
-
-enp0s8
-   ↓
-velatida-lan
-   ↓
-Comunicación interna
+* enp0s3 → NAT → Internet
+* enp0s8 → velatida-lan → Comunicación interna
 
 La interfaz NAT proporciona conectividad exterior, mientras que enp0s8 se utiliza para la comunicación entre las máquinas virtuales.
 

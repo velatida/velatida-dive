@@ -38,19 +38,13 @@ El script mantiene una estructura basada en funciones para separar las diferente
 
 La lógica general es:
 
-Inicio
-  │
-  ├── Mostrar información del servidor
-  │
-  ├── Comprobar recursos
-  │
-  ├── Comprobar servicios
-  │
-  ├── Comprobar red
-  │
-  ├── Comprobar Docker
-  │
-  └── Mostrar resultado
+Inicio: 
+- Mostrar información del servidor
+- Comprobar recursos
+- Comprobar servicios
+- Comprobar red
+- Comprobar Docker
+- Mostrar resultado
 
 -----------
 

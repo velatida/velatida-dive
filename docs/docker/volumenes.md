@@ -68,13 +68,7 @@ La prueba demuestra que el volumen mantiene los datos aunque el contenedor que l
 
 La relación puede representarse de la siguiente forma:
 
-Contenedor 1 ───┐
-                │
-                ▼
-         Volumen Docker
-                │
-                ▼
-Contenedor 2 ───┘
+Contenedor 1 ───→ Volumen Docker ←─── Contenedor 2 
 
 El contenedor puede desaparecer y volver a crearse mientras los datos permanecen en el volumen.
 

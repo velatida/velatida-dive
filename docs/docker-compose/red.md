@@ -55,15 +55,17 @@ La red utilizada por Docker Compose es independiente de la red interna de Virtua
 
 La infraestructura queda organizada de la siguiente forma:
 
+```text
 VirtualBox
 │
-└── velatida-lan
-    │
-    ├── dive-server
-    │   └── 192.168.10.10
-    │
-    └── dive-client
-        └── 192.168.10.20
+├── velatida-lan
+│   └── Red interna: 192.168.10.0/24
+│
+├── dive-server
+│   └── 192.168.10.10
+│
+└── dive-client
+    └── 192.168.10.20
 
 dive-server
 │
@@ -73,6 +75,7 @@ dive-server
         │
         ├── velatida-web
         └── velatida-db
+```
 
 La red velatida-lan permite la comunicación entre las máquinas virtuales, mientras que velatida-net permite la comunicación entre los contenedores de la aplicación.
 

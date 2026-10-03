@@ -61,8 +61,8 @@ Se ha instalado BIND9 en `dive-server` y se ha configurado un servicio DNS inter
 
 El servicio permite resolver los nombres de los equipos mediante sus direcciones IP internas.
 
-- dive-server → 192.168.10.10
-- dive-client → 192.168.10.20
+- *dive-server* → 192.168.10.10
+- *dive-client* → 192.168.10.20
 
 Las consultas se han comprobado mediante herramientas como `dig` y `nslookup`.
 
@@ -86,8 +86,8 @@ La comunicación entre las máquinas se realiza mediante la red interna `velatid
 
 Las direcciones utilizadas son:
 
-- dive-server : 192.168.10.10/24
-- dive-client : 192.168.10.20/24
+- *dive-server* : 192.168.10.10/24
+- *dive-client* : 192.168.10.20/24
 
 Esta red permite que los servicios internos sean accesibles entre las máquinas virtuales sin depender de la interfaz NAT.
 

@@ -36,6 +36,7 @@ Docker Compose utiliza Docker Engine para crear y administrar los contenedores.
 
 La relación entre ambos componentes es:
 
+```text
 Docker Compose
       │
       ▼
@@ -44,6 +45,7 @@ Docker Engine
  ┌────┼────┐
  ▼    ▼    ▼
 Web   DB  Redes/volúmenes
+``` 
 
 Compose define la aplicación y Docker Engine se encarga de ejecutar los contenedores.
 

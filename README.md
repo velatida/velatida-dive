@@ -35,10 +35,10 @@ La comunicación entre ambas máquinas se realiza mediante una red interna confi
 ## Estructura del repositorio
 
 velatida-dive/
-├── docs/
-├── scripts/
-├── docker/
-└── README.md
+  docs/
+  scripts/
+  docker/
+  README.md
 
 ### `docs/`
 

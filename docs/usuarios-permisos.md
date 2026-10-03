@@ -25,13 +25,13 @@ Se han creado dos grupos específicos para gestionar los permisos del proyecto:
 
 La distribución actual es:
 
-Usuarios
-├── raquel
-│   └── administradora del sistema (sudo)
-├── diveadmin
-│   └── grupo: dive-admin
-└── diveuser
-    └── grupo: dive-users
+Usuarios:
+  raquel
+    administradora del sistema (sudo)
+  diveadmin
+    grupo: dive-admin
+  diveuser
+    grupo: dive-users
 
 La cuenta `raquel` mantiene la administración completa del sistema mediante `sudo`, mientras que `diveadmin` y `diveuser` se utilizarán para comprobar y aplicar diferentes niveles de permisos sobre los recursos de Velatida Dive.
 

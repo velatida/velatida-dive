@@ -36,13 +36,7 @@ El volumen permite separar los datos del ciclo de vida del contenedor.
 
 La relación utilizada es:
 
-velatida-db
-     │
-     ▼
-velatida-data
-     │
-     ▼
-Datos de MariaDB
+velatida-db → velatida-data → Datos de MariaDB
 
 Si el contenedor se elimina y posteriormente se vuelve a crear utilizando el mismo volumen, los datos almacenados permanecen disponibles.
 
