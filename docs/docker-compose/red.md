@@ -8,7 +8,7 @@ En esta fase se ha configurado una red Docker para permitir la comunicación ent
 
 -----------
 
-# Red utilizada
+## Red utilizada
 
 Se ha definido la red:
 
@@ -23,7 +23,7 @@ Los servicios web y db están conectados a esta red.
 
 ----------- 
 
-# Comunicación entre servicios
+## Comunicación entre servicios
 
 Los contenedores conectados a la misma red pueden comunicarse utilizando los nombres de servicio.
 
@@ -35,7 +35,7 @@ Docker proporciona resolución de nombres entre los contenedores conectados a la
 
 -----------
 
-# Consulta de la red
+## Consulta de la red
 
 Las redes Docker disponibles se pueden consultar mediante:
 
@@ -49,7 +49,7 @@ Esto permite comprobar los contenedores conectados y la configuración de la red
 
 -----------
 
-# Red de Docker Compose y red de VirtualBox
+## Red de Docker Compose y red de VirtualBox
 
 La red utilizada por Docker Compose es independiente de la red interna de VirtualBox.
 

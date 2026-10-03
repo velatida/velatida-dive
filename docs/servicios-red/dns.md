@@ -15,7 +15,7 @@ Ejemplo:
 
 -----------
 
-# Servicio utilizado
+## Servicio utilizado
 
 Se ha utilizado *BIND9* como servidor DNS.
 
@@ -23,7 +23,7 @@ BIND9 permite gestionar zonas DNS y diferentes tipos de registros para proporcio
 
 -----------
 
-# Instalación
+## Instalación
 
 La instalación se ha realizado mediante:
 
@@ -32,7 +32,7 @@ La instalación se ha realizado mediante:
 
 -----------
 
-# Configuración
+## Configuración
 
 El servidor DNS se ha ejecutado en `dive-server`.
 
@@ -47,7 +47,7 @@ La configuración incluye:
 
 -----------
 
-# Comprobación del servicio
+## Comprobación del servicio
 
 El estado del servicio se ha comprobado mediante:
 
@@ -62,7 +62,7 @@ El servicio se encontraba activo y configurado para iniciarse automáticamente.
 
 -----------
 
-# Consultas DNS
+## Consultas DNS
 
 Se han realizado consultas directamente al servidor DNS mediante la herramienta `dig`:
 
@@ -76,7 +76,7 @@ Las consultas devolvieron la dirección configurada para el servidor.
 
 -----------
 
-# Resolución desde el cliente
+## Resolución desde el cliente
 
 Desde `dive-client` se ha comprobado la resolución del nombre:
 
@@ -90,7 +90,7 @@ Esto ha permitido utilizar el nombre del servidor en lugar de depender directame
 
 -----------
 
-# Logs
+## Logs
 
 Los registros del servicio se consultaron mediante:
 
@@ -98,7 +98,7 @@ Los registros del servicio se consultaron mediante:
 
 -----------
 
-# Aplicación en Velatida Dive
+## Aplicación en Velatida Dive
 
 El DNS interno facilita la administración de la infraestructura al permitir utilizar nombres de host en lugar de memorizar direcciones IP.
 

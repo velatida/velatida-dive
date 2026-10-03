@@ -21,7 +21,7 @@ Se han trabajado los siguientes conceptos:
 
 -----------
 
-# Entorno
+## Entorno
 
 La práctica se ha realizado sobre el servidor:
 
@@ -36,7 +36,7 @@ La configuración de Docker Compose se encuentra dentro del proyecto:
 
 -----------
 
-# Arquitectura
+## Arquitectura
 
 Se ha creado una aplicación compuesta por dos servicios:
 
@@ -61,7 +61,7 @@ La información de la base de datos se almacena mediante un volumen persistente.
 
 -----------
 
-# Estructura
+## Estructura
 
 La configuración se organiza de la siguiente forma:
 
@@ -71,7 +71,7 @@ docker/
 
 -----------
 
-# Gestión de la aplicación
+## Gestión de la aplicación
 
 La aplicación completa se puede iniciar mediante:
 

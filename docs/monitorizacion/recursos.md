@@ -8,7 +8,7 @@ Comprobar el estado de los principales recursos utilizados por el servidor y det
 
 -----------
 
-# CPU
+## CPU
 
 Para consultar el uso del procesador se puede utilizar:
 
@@ -22,7 +22,7 @@ El comando `top` muestra los procesos que están utilizando recursos y permite o
 
 -----------
 
-# Memoria RAM
+## Memoria RAM
 
 Para consultar el uso de memoria:
 
@@ -34,7 +34,7 @@ La información permite diferenciar entre memoria total, utilizada, disponible y
 
 -----------
 
-# Disco
+## Disco
 
 Para comprobar el espacio disponible:
 
@@ -50,7 +50,7 @@ En los scripts del proyecto se utiliza un umbral del 80 % para mostrar una adver
 
 -----------
 
-# Tiempo de actividad
+## Tiempo de actividad
 
 Para consultar desde cuándo está funcionando el sistema:
 
@@ -60,7 +60,7 @@ El resultado incluye el tiempo que lleva encendido el servidor y la carga del si
 
 -----------
 
-# Interpretación
+## Interpretación
 
 La monitorización de recursos permite detectar situaciones como:
 

@@ -8,7 +8,7 @@ En esta parte de la fase se ha trabajado con imágenes y contenedores Docker, di
 
 -----------
 
-# Imágenes
+## Imágenes
 
 Una imagen contiene los elementos necesarios para crear un contenedor.
 
@@ -24,7 +24,7 @@ La imagen descargada queda disponible localmente para crear nuevos contenedores.
 
 -----------
 
-# Creación de un contenedor
+## Creación de un contenedor
 
 Se ha creado un contenedor utilizando una imagen existente:
 
@@ -44,7 +44,7 @@ Para consultar también los contenedores detenidos:
 
 -----------
 
-# Estado y logs
+## Estado y logs
 
 Se ha consultado la información de un contenedor mediante:
 
@@ -60,7 +60,7 @@ También se puede comprobar el estado de un contenedor con:
 
 -----------
 
-# Parada y arranque
+## Parada y arranque
 
 El contenedor se puede detener mediante:
 
@@ -76,7 +76,7 @@ También se ha comprobado el reinicio del contenedor:
 
 -----------
 
-# Eliminación
+## Eliminación
 
 Cuando un contenedor ya no es necesario se puede eliminar:
 
@@ -90,7 +90,7 @@ Antes de eliminar una imagen se debe comprobar que no existen contenedores que d
 
 -----------
 
-# Ciclo de vida
+## Ciclo de vida
 
 Durante la práctica se ha trabajado el siguiente ciclo:
 

@@ -2,7 +2,7 @@ services:
 
   web:
     build:
-      context: ../web
+      context: ./web 
     container_name: velatida-web
     ports:
       - "8080:80"

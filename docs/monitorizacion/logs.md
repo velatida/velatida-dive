@@ -8,7 +8,7 @@ Consultar los registros generados por el sistema y por los servicios para detect
 
 -----------
 
-# Journal de systemd
+## Journal de systemd
 
 Ubuntu utiliza `systemd-journald` para recopilar numerosos registros del sistema.
 
@@ -26,7 +26,7 @@ Para mostrar únicamente las últimas entradas:
 
 -----------
 
-# Seguimiento en tiempo real
+## Seguimiento en tiempo real
 
 Para seguir nuevos registros a medida que se generan:
 
@@ -38,7 +38,7 @@ También puede utilizarse con un servicio concreto:
 
 -----------
 
-# Registros de Apache
+## Registros de Apache
 
 Cuando Apache está instalado, sus registros se encuentran normalmente en:
 
@@ -51,7 +51,7 @@ Los principales archivos son:
 
 -----------
 
-# Registros de Docker
+## Registros de Docker
 
 Los contenedores Docker también generan registros que pueden consultarse mediante:
 
@@ -67,7 +67,7 @@ Para seguir los registros en tiempo real:
 
 -----------
 
-# Utilidad de los logs
+## Utilidad de los logs
 
 Los registros permiten investigar problemas relacionados con:
 

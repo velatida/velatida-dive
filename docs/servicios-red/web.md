@@ -10,7 +10,7 @@ Esta práctica permite trabajar con la instalación, administración y comprobac
 
 -----------
 
-# Servicio utilizado
+## Servicio utilizado
 
 Se ha utilizado *Apache HTTP Server*.
 
@@ -20,7 +20,7 @@ Utiliza el puerto `TCP 80` para las conexiones HTTP.
 
 -----------
 
-# Instalación
+## Instalación
 
 La instalación se ha realizado mediante:
 
@@ -29,7 +29,7 @@ La instalación se ha realizado mediante:
 
 -----------
 
-# Comprobación del servicio
+## Comprobación del servicio
 
 Una vez instalado se ha comprobado su estado:
 
@@ -42,7 +42,7 @@ También se han utilizado:
 
 -----------
 
-# Directorio web
+## Directorio web
 
 El contenido web se ha alojado en:
 
@@ -52,7 +52,7 @@ Se sustituyó la página predeterminada por una página propia de Velatida Dive 
 
 -----------
 
-# Comprobación local
+## Comprobación local
 
 Desde `dive-server` se ha comprobado el funcionamiento mediante:
 
@@ -66,7 +66,7 @@ Ambas comprobaciones permiten verificar que Apache responde correctamente.
 
 -----------
 
-# Comprobación desde el cliente
+## Comprobación desde el cliente
 
 Desde `dive-client` se ha realizado una petición HTTP mediante:
 
@@ -80,7 +80,7 @@ La página de Velatida Dive es accesible desde el cliente.
 
 -----------
 
-# Logs
+## Logs
 
 Se han consultado los registros principales de Apache:
 
@@ -97,7 +97,7 @@ Los errores mediante:
 
 -----------
 
-# Administración del servicio
+## Administración del servicio
 
 Se han practicado las principales operaciones de administración:
 
@@ -111,7 +111,7 @@ También se ha comprobado:
 
 -----------
 
-# Aplicación en Velatida Dive
+## Aplicación en Velatida Dive
 
 El servidor web proporciona un servicio accesible desde la red interna.
 

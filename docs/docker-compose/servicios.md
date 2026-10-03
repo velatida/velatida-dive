@@ -13,7 +13,7 @@ La aplicación utiliza dos contenedores principales:
 
 -----------
 
-# Servicio web
+## Servicio web
 
 El servicio web proporciona el servidor web Apache.
 
@@ -31,7 +31,7 @@ La aplicación web se puede comprobar desde el servidor mediante:
 
 -----------
 
-# Servicio de base de datos
+## Servicio de base de datos
 
 El servicio `db` utiliza MariaDB.
 
@@ -45,7 +45,7 @@ No se ha publicado el `puerto 3306` directamente en el servidor, ya que la comun
 
 -----------
 
-# Dependencia
+## Dependencia
 
 El servicio web se ha definido con una dependencia respecto al servicio de base de datos:
 
@@ -56,7 +56,7 @@ Esto establece el orden de inicio de los servicios definido por Compose.
 
 -----------
 
-# Estado de los servicios
+## Estado de los servicios
 
 El estado de todos los servicios se consulta mediante:
 
@@ -66,7 +66,7 @@ El resultado permite comprobar si los contenedores se encuentran activos.
 
 -----------
 
-# Registros
+## Registros
 
 Los registros de todos los servicios se consultan mediante:
 
@@ -79,7 +79,7 @@ También se pueden consultar individualmente:
 
 -----------
 
-# Reinicio
+## Reinicio
 
 Los servicios pueden reiniciarse individualmente:
 

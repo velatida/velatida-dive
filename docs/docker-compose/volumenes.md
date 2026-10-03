@@ -8,7 +8,7 @@ En esta fase se ha utilizado un volumen Docker para mantener los datos del servi
 
 -----------
 
-# Volumen utilizado
+## Volumen utilizado
 
 Se ha definido el volumen:
 
@@ -30,7 +30,7 @@ Los datos de MariaDB se almacenan dentro del volumen en:
 
 -----------
 
-# Persistencia
+## Persistencia
 
 El volumen permite separar los datos del ciclo de vida del contenedor.
 
@@ -48,7 +48,7 @@ Si el contenedor se elimina y posteriormente se vuelve a crear utilizando el mis
 
 ----------- 
 
-# Consulta
+## Consulta
 
 Los volúmenes disponibles se pueden consultar mediante:
 
@@ -60,7 +60,7 @@ La información del volumen se puede consultar mediante:
 
 -----------
 
-# Eliminación de la aplicación
+## Eliminación de la aplicación
 
 La aplicación se puede detener y eliminar mediante:
 

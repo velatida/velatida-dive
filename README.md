@@ -4,7 +4,7 @@ Proyecto práctico de Administración de Sistemas Informáticos en Red, desarrol
 
 -----------
 
-# Obejetivos
+## Obejetivos
 
 - Administrar sistemas Linux.
 - Gestionar usuarios, grupos y permisos.
@@ -19,7 +19,7 @@ Proyecto práctico de Administración de Sistemas Informáticos en Red, desarrol
 
 -----------
 
-# Infraestructura
+## Infraestructura
 
 El laboratorio está compuesto por dos máquinas virtuales Linux:
 
@@ -28,7 +28,7 @@ El laboratorio está compuesto por dos máquinas virtuales Linux:
 
 -----------
 
-# Estructura del repositorio
+## Estructura del repositorio
 
 Velatida Dive/
 - docs/
@@ -38,13 +38,13 @@ Velatida Dive/
 
 -----------
 
-# Contenido del proyecto
+## Contenido del proyecto
 
 - 
 
 -----------
 
-# Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Linux (Ubuntu)
 - VirtualBox
@@ -59,7 +59,7 @@ Estado: En desarrollo 🚧
 
 -----------
 
-# Autor
+## Autor
 
 Velatida 
 

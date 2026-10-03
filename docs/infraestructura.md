@@ -2,12 +2,12 @@
 
 ----------- 
 
-# Entorno de laboratorio
+## Entorno de laboratorio
 
 El proyecto se desarrolla mediante dos máquinas virtuales Linux en VirtualBox:
 
-- `dive-server` | Servidor principal.
-- `dive-client` | Máquina cliente utilizada para realizar pruebas y acceder a los servicios.
+- `dive-server` : Servidor principal.
+- `dive-client` : Máquina cliente utilizada para realizar pruebas y acceder a los servicios.
 
 Las máquinas virtuales forman parte del laboratorio de ejecución del proyecto. 
 El código, los scripts y la documentación se gestionan desde el equipo host mediante Git y GitHub.
@@ -15,7 +15,7 @@ Se han establecido nombres de host para identificar las máquinas dentro del pro
 
 -----------
 
-# Red
+## Red
 
 Se han configurado dos interfaces de red en cada máquina:
 
@@ -27,10 +27,9 @@ Se han configurado dos interfaces de red en cada máquina:
 - Se denomina: `velatida-lan`.
 - Utiliza la red `192.168.10.0/24`.
 
-
 -----------
 
-# Direcciones IP
+## Direcciones IP
 
 *dive-server*
 - dive-server | enp0s3 | NAT | DHCP             
@@ -46,7 +45,7 @@ La comunicación entre ambas máquinas se ha comprobado mediante `ping`.
 
 -----------
 
-# Almacenamiento 
+## Almacenamiento 
 
 El servidor dispone de un disco virtual de `30 GB`, independiente del disco original de la máquina virtual.
 
@@ -56,7 +55,7 @@ Este espacio se utilizará posteriormente para almacenar datos, scripts, copias 
 
 -----------
 
-# Arquitectura inicial 
+## Arquitectura inicial 
 
                     VELATIDA DIVE
                           │

@@ -10,7 +10,7 @@ En lugar de crear un script independiente para cada recurso, se amplía el siste
 
 -----------
 
-# Ubicación
+## Ubicación
 
 El script se encuentra en:
 
@@ -18,7 +18,7 @@ El script se encuentra en:
 
 -----------
 
-# Información obtenida
+## Información obtenida
 
 El diagnóstico reúne información relacionada con:
 
@@ -32,7 +32,7 @@ El diagnóstico reúne información relacionada con:
 
 -----------
 
-# Estructura
+## Estructura
 
 El script mantiene una estructura basada en funciones para separar las diferentes comprobaciones.
 
@@ -54,7 +54,7 @@ Inicio
 
 -----------
 
-# Ejecución
+## Ejecución
 
 Desde el directorio de scripts:
 
@@ -64,7 +64,7 @@ El script puede recibir los servicios que se desean comprobar como argumentos.
 
 -----------
 
-# Código de salida
+## Código de salida
 
 El script utiliza un código de salida para indicar el resultado de las comprobaciones:
 
@@ -77,7 +77,7 @@ Puede comprobarse con:
 
 -----------
 
-# Integración con Bash
+## Integración con Bash
 
 Este script reúne diferentes conceptos practicados durante el proyecto:
 

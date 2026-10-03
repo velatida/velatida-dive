@@ -2,26 +2,26 @@
 
 -----------
 
-# Usuarios  
+## Usuarios  
 
 El servidor `dive-server` utiliza tres usuarios con diferentes niveles de responsabilidad:
 
-- `raquel` | Administradora del sistema, con permisos de `sudo`.                 
-- `diveadmin` | Usuario destinado a la administración de los recursos del proyecto. 
-- `diveuser` | Usuario destinado a tareas operativas con permisos limitados.     
+- `raquel` : Administradora del sistema, con permisos de `sudo`.                 
+- `diveadmin` : Usuario destinado a la administración de los recursos del proyecto. 
+- `diveuser` : Usuario destinado a tareas operativas con permisos limitados.     
 
 -----------
 
-# Grupos
+## Grupos
 
 Se han creado dos grupos específicos para gestionar los permisos del proyecto:
 
-- `dive-admin` | Agrupa a los usuarios con permisos de administración dentro del proyecto. 
-- `dive-users` | Agrupa a los usuarios con permisos operativos.                            
+- `dive-admin` : Agrupa a los usuarios con permisos de administración dentro del proyecto. 
+- `dive-users` : Agrupa a los usuarios con permisos operativos.                            
 
 -----------
 
-# Distribución
+## Distribución
 
 La distribución actual es:
 
@@ -37,11 +37,11 @@ La cuenta `raquel` mantiene la administración completa del sistema mediante `su
 
 -----------
 
-# Propietarios y permisos
+## Propietarios y permisos
 
 Se ha creado el directorio principal del proyecto:
 
-*/srv/asir/velatida-dive*
+`/srv/asir/velatida-dive`
 
 Su configuración actual es:
 
@@ -55,11 +55,11 @@ Para permitir que `diveuser` pueda alcanzar únicamente los recursos destinados 
 
 -----------
 
-# Área operativa
+## Área operativa
 
 Dentro del proyecto se ha creado el directorio:
 
-*/srv/asir/velatida-dive/operativo*
+`/srv/asir/velatida-dive/operativo`
 
 Su configuración es:
 
@@ -71,26 +71,26 @@ Los miembros de `dive-users` pueden trabajar dentro de este directorio, mientras
 
 -----------
 
-# ACL
+## ACL
 
 Se han utilizado ACL para permitir que `diveuser` pueda atravesar los directorios necesarios para llegar hasta operativo, sin concederle acceso general al contenido del proyecto.
 
 Se ha aplicado el permiso `(x)` a `diveuser` sobre:
 
-*/srv/asir*
-*/srv/asir/velatida-dive*
+`/srv/asir`
+`/srv/asir/velatida-dive`
 
 Este permiso permite atravesar los directorios, pero no listar ni modificar su contenido.
 
 De esta forma, `diveuser` puede acceder directamente a:
 
-*/srv/asir/velatida-dive/operativo*
+`/srv/asir/velatida-dive/operativo`
 
 donde dispone de permisos de lectura, escritura y ejecución mediante el grupo `dive-users`.
 
 -----------
 
-# Gestión de archivos
+## Gestión de archivos
 
 Dentro del directorio principal se ha creado `informe.txt`.
 
@@ -108,7 +108,7 @@ Se ha comprobado que `diveuser` puede crear y leer archivos dentro de operativo.
 
 -----------
 
-# Pruebas de acceso
+## Pruebas de acceso
 
 Se han realizado diferentes pruebas para comprobar la aplicación de los permisos:
 

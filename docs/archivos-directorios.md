@@ -2,7 +2,7 @@
 
 -----------
 
-# Estructura de trabajo
+## Estructura de trabajo
 
 Dentro del directorio principal del proyecto se ha establecido la siguiente estructura:
 
@@ -16,7 +16,7 @@ Los directorios se utilizarán para organizar los diferentes recursos del proyec
 
 -----------
 
-# Gestión de archivos
+## Gestión de archivos
 
 Durante esta fase se han practicado las operaciones básicas de administración de archivos:
 
@@ -32,7 +32,7 @@ Se ha comprobado el comportamiento de estas operaciones sobre los recursos del p
 
 -----------
 
-# Gestión de directorios
+## Gestión de directorios
 
 Se han practicado operaciones sobre directorios:
 
@@ -45,19 +45,19 @@ Estas operaciones se han realizado sobre directorios de prueba sin modificar la 
 
 -----------
 
-# Búsqueda de archivos
+## Búsqueda de archivos
 
 Se ha utilizado `find` para localizar archivos dentro del proyecto según diferentes criterios.
 
 Como prueba, se han localizado los archivos con extensión `.txt` dentro de:
 
-*/srv/asir/velatida-dive*
+`/srv/asir/velatida-dive`
 
 Esto permite realizar búsquedas sobre estructuras de directorios y servirá posteriormente para tareas de mantenimiento, copias de seguridad y automatización.
 
 -----------
 
-# Propietarios y permisos
+## Propietarios y permisos
 
 Durante las operaciones se ha comprobado que la forma de realizar una operación puede afectar al propietario y grupo de los archivos.
 

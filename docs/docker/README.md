@@ -20,7 +20,7 @@ La práctica se ha realizado sobre el servidor `dive-server`.
 
 -----------
 
-# Entorno
+## Entorno
 
 El servidor utilizado dispone de:
 
@@ -34,7 +34,7 @@ Docker utiliza su propia infraestructura de almacenamiento y redes, independient
 
 -----------
 
-# Estructura
+## Estructura
 
 La configuración y documentación relacionada con Docker se organiza en:
 
@@ -49,7 +49,7 @@ docs/
 
 -----------
 
-# Aplicación en Velatida Dive
+## Aplicación en Velatida Dive
 
 Se ha creado un entorno Docker de prueba relacionado con el proyecto Velatida Dive.
 

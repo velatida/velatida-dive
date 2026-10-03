@@ -8,7 +8,7 @@ Implementar un sistema básico de copias de seguridad para los datos del proyect
 
 -----------
 
-# Datos protegidos
+## Datos protegidos
 
 El backup incluye el contenido del proyecto:
 
@@ -18,7 +18,7 @@ No se realizan copias de seguridad de los archivos del sistema operativo.
 
 -----------
 
-# Backup manual
+## Backup manual
 
 Se utilizó tar para crear una copia comprimida:
 
@@ -30,7 +30,7 @@ Para comprobar el contenido:
 
 -----------
 
-# Restauración
+## Restauración
 
 Se realizó una prueba de restauración en un directorio temporal para no modificar el proyecto original:
 
@@ -41,7 +41,7 @@ Se verificaron los archivos restaurados mediante `find`.
 
 -----------
 
-# Script de backup
+## Script de backup
 
 Se creó:
 
@@ -56,7 +56,7 @@ El script:
 
 -----------
 
-# Automatización
+## Automatización
 
 El backup se ha programado mediante cron en el crontab de root:
 
@@ -68,7 +68,7 @@ El servicio cron se encuentra activo y habilitado para iniciarse automáticament
 
 -----------
 
-# Retención
+## Retención
 
 Los backups generados por el script se conservan durante 7 días.
 
@@ -76,7 +76,7 @@ Los archivos con más de 7 días se eliminan automáticamente mediante `find`.
 
 -----------
 
-# Limitación del laboratorio
+## Limitación del laboratorio
 
 Los backups se almacenan actualmente en:
 

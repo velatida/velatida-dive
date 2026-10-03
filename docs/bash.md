@@ -12,7 +12,7 @@ El objetivo ha sido aplicar Bash a tareas habituales de administración, evitand
 
 -----------
 
-# Conceptos trabajados
+## Conceptos trabajados
 
 Durante esta fase se han practicado los siguientes conceptos:
 
@@ -33,53 +33,37 @@ Estos conceptos se han aplicado sobre información y servicios reales del servid
 
 -----------
 
-# Scripts desarrollados
-
----
+## Scripts desarrollados
 
 *estado-servidor.sh*
 
-Script básico utilizado para mostrar información identificativa del servidor.
-
-Permite introducir variables en un script y mostrar su contenido mediante Bash.
-
----
+- Script básico utilizado para mostrar información identificativa del servidor.
+- Permite introducir variables en un script y mostrar su contenido mediante Bash.
 
 *info-servidor.sh*
 
-Script que recibe el nombre del servidor como argumento.
-
-Se ha utilizado el parámetro `$1` para acceder al primer argumento proporcionado durante la ejecución.
+- Script que recibe el nombre del servidor como argumento.
+- Se ha utilizado el parámetro `$1` para acceder al primer argumento proporcionado durante la ejecución.
 
 Ejemplo:
 
 `./info-servidor.sh dive-server`
 
----
-
 *comprobar-ssh.sh*
 
-Script destinado a comprobar el estado del servicio SSH.
-
-Se utiliza `systemctl is-active` para consultar el estado del servicio y una estructura condicional para determinar si está funcionando correctamente.
-
----
+- Script destinado a comprobar el estado del servicio SSH.
+- Se utiliza `systemctl is-active` para consultar el estado del servicio y una estructura condicional para determinar si está funcionando correctamente.
 
 *comprobar-disco.sh*
 
-Script utilizado para comprobar el porcentaje de espacio utilizado en el sistema de archivos raíz.
-
-La información obtenida mediante `df` se procesa mediante una tubería de comandos para extraer únicamente el porcentaje de utilización.
-
-El resultado se compara con un límite establecido para detectar una posible falta de espacio.
-
----
+- Script utilizado para comprobar el porcentaje de espacio utilizado en el sistema de archivos raíz.
+- La información obtenida mediante `df` se procesa mediante una tubería de comandos para extraer únicamente el porcentaje de utilización.
+- El resultado se compara con un límite establecido para detectar una posible falta de espacio.
 
 *comprobar-servicios.sh*
 
-Script destinado a comprobar el estado de varios servicios.
-
-Los servicios se reciben como argumentos mediante `$@` y se recorren utilizando un bucle `for`.
+- Script destinado a comprobar el estado de varios servicios.
+- Los servicios se reciben como argumentos mediante `$@` y se recorren utilizando un bucle `for`.
 
 Ejemplo:
 
@@ -89,7 +73,7 @@ El script informa del estado de cada servicio y devuelve un código de salida di
 
 -----------
 
-# Diagnóstico del servidor
+## Diagnóstico del servidor
 
 Como aplicación final de los conceptos trabajados, se ha desarrollado `diagnostico-servidor.sh`.
 
@@ -114,7 +98,7 @@ Si alguna comprobación falla, devuelve el código 1.
 
 -----------
 
-# Códigos de salida
+## Códigos de salida
 
 Los códigos de salida permiten comunicar el resultado de la ejecución de un script a otros procesos o herramientas.
 

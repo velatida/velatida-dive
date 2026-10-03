@@ -10,17 +10,24 @@ SSH permite acceder a una terminal del servidor de forma remota y segura, sin ne
 
 -----------
 
-# Servicio utilizado
+## Servicio utilizado
 
 Se ha utilizado OpenSSH Server.
 
 El servicio se ejecuta en `dive-server` y está gestionado mediante `systemd`.
 
-El puerto utilizado por defecto es `TCP 22`
+El puerto utilizado por defecto es `TCP 22`.
+
+En el sistema se distingue entre:
+
+- *OpenSSH Client*: permite iniciar conexiones SSH hacia otros equipos.
+- *OpenSSH Server*: permite aceptar conexiones SSH entrantes.
+
+En `dive-server` se instaló el componente servidor para permitir las conexiones desde `dive-client`.
 
 -----------
 
-# Instalación
+## Instalación
 
 El servidor SSH se instaló mediante:
 
@@ -29,28 +36,31 @@ El servidor SSH se instaló mediante:
 
 -----------
 
-# Comprobación del servicio
+## Comprobación del servicio
 
-Para consultar el estado:
+Para consultar el estado completo del servicio:
 
 `systemctl status ssh`
 
 También se pueden utilizar:
 
 `systemctl is-active ssh`
+
+para comprobar si el servicio está actualmente activo, y:
+
 `systemctl is-enabled ssh`
 
-El objetivo es comprobar que el servicio está activo y configurado para iniciarse automáticamente.
+para comprobar si está configurado para iniciarse automáticamente con el sistema.
 
 -----------
 
-# Conexión desde el cliente
+## Conexión desde el cliente
 
 Desde `dive-client` se estableció una conexión con:
 
 `ssh raquel@192.168.10.10`
 
-Una vez establecida la conexión, se comprobó el nombre del equipo:
+Una vez establecida la conexión, se comprobó el nombre del equipo mediante:
 
 `hostname`
 
@@ -66,17 +76,17 @@ La sesión se cerró mediante:
 
 -----------
 
-# Logs
+## Logs
 
 Los registros relacionados con SSH se consultaron mediante:
 
 `journalctl -u ssh --no-pager -n 20`
 
-Estos registros permiten revisar los eventos relacionados con el servicio y detectar posibles problemas de conexión.
+Estos registros permiten revisar los eventos relacionados con el servicio y detectar posibles problemas de funcionamiento o conexión.
 
 -----------
 
-# Administración del servicio
+## Administración del servicio
 
 Se han practicado las principales operaciones de administración mediante:
 
@@ -84,22 +94,26 @@ Se han practicado las principales operaciones de administración mediante:
 `sudo systemctl stop ssh`
 `sudo systemctl restart ssh`
 
-También se comprobado su configuración de inicio:
+También se comprobó su configuración de inicio mediante:
 
 `systemctl is-enabled ssh`
 
+Estas operaciones permiten controlar el estado del servicio mediante `systemd`.
+
 -----------
 
-# Aplicación en Velatida Dive
+## Aplicación en Velatida Dive
 
 SSH se utiliza como mecanismo de administración remota del servidor.
 
-Esta configuración permite administrar `dive-server` desde `dive-client` sin necesidad de acceder directamente a la consola de la máquina virtual.
+La configuración permite administrar `dive-server` desde `dive-client` sin necesidad de acceder directamente a la consola de la máquina virtual.
+
+La comunicación se realiza a través de la red interna `velatida-lan`, utilizando la dirección `192.168.10.10`.
 
 -----------
 
 # Resultado
 
-Se instaló y configuró `OpenSSH Server` y se comprobó correctamente una conexión remota desde `dive-client` hacia `dive-server`.
+Se instaló y configuró `OpenSSH Server` en `dive-server` y se comprobó correctamente una conexión remota desde `dive-client`.
 
-También se verificaron el estado del servicio y sus registros mediante `systemctl` y `journalctl`.
+También se verificaron el estado, la configuración de inicio y los registros del servicio mediante `systemctl` y `journalctl`.

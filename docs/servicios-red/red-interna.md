@@ -8,7 +8,7 @@ Se configuró y documentó la red utilizada para conectar las máquinas virtuale
 
 -----------
 
-# Arquitectura
+## Arquitectura
 
 La infraestructura utiliza una red interna de VirtualBox denominada:
 
@@ -32,7 +32,7 @@ La arquitectura es:
 
 -----------
 
-# Direcciones IP
+## Direcciones IP
 
 *dive-server*
 - dive-server | enp0s3 | NAT | DHCP             
@@ -48,7 +48,7 @@ El acceso a Internet se realiza mediante la interfaz NAT.
 
 -----------
 
-# Comprobación de conectividad
+## Comprobación de conectividad
 
 Desde `dive-server` se ha comprobado la comunicación con el cliente:
 
@@ -62,7 +62,7 @@ Las pruebas confirmaron la comunicación entre ambas máquinas.
 
 -----------
 
-# Servicios sobre la red interna
+## Servicios sobre la red interna
 
 Los principales servicios de la infraestructura utilizan la red interna para comunicarse:
 
@@ -77,7 +77,7 @@ dive-client → dive-server:80
 
 -----------
 
-# Separación de redes
+## Separación de redes
 
 La utilización de dos interfaces permite separar las funciones:
 
@@ -97,7 +97,7 @@ La interfaz NAT proporciona conectividad exterior, mientras que enp0s8 se utiliz
 
 -----------
 
-# Comprobación de interfaces
+## Comprobación de interfaces
 
 Las interfaces se han consultado mediante:
 
@@ -111,7 +111,7 @@ Estas herramientas permiten verificar las direcciones asignadas y las rutas disp
 
 -----------
 
-# Aplicación en Velatida Dive
+## Aplicación en Velatida Dive
 
 La red interna constituye la base de la infraestructura del laboratorio.
 

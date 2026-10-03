@@ -8,8 +8,7 @@ Se ha comprobado la disponibilidad de Docker Compose en `dive-server` y se ha ve
 
 -----------
 
-# Comprobación
-
+## Comprobación
 
 Docker Compose se utiliza actualmente como subcomando del propio cliente Docker:
 
@@ -31,7 +30,7 @@ Y que el servicio está activo:
 
 -----------
 
-# Funcionamiento
+## Funcionamiento
 
 Docker Compose utiliza Docker Engine para crear y administrar los contenedores.
 

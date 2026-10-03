@@ -8,7 +8,7 @@ Comprobar el estado de las interfaces de red, las direcciones configuradas y las
 
 -----------
 
-# Interfaces de red
+## Interfaces de red
 
 Para consultar las interfaces disponibles:
 
@@ -16,8 +16,8 @@ Para consultar las interfaces disponibles:
 
 En el servidor de Velatida Dive se utilizan dos interfaces:
 
-* `enp0s3`: conexión NAT de VirtualBox.
-* `enp0s8`: red interna `velatida-lan`.
+- `enp0s3`: conexión NAT de VirtualBox.
+- `enp0s8`: red interna `velatida-lan`.
 
 La interfaz interna utiliza la dirección:
 
@@ -25,7 +25,7 @@ La interfaz interna utiliza la dirección:
 
 -----------
 
-# Conectividad
+## Conectividad
 
 La conectividad con el cliente puede comprobarse mediante:
 
@@ -35,7 +35,7 @@ Esto permite comprobar que el servidor puede comunicarse con `dive-client` dentr
 
 -----------
 
-# Conexiones y puertos
+## Conexiones y puertos
 
 Para consultar los puertos y conexiones de red:
 
@@ -51,7 +51,7 @@ Esta variante permite relacionar los puertos en escucha con los procesos corresp
 
 -----------
 
-# Servicios de red
+## Servicios de red
 
 Los principales servicios que pueden observarse en el servidor incluyen:
 

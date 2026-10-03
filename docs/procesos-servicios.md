@@ -1,8 +1,10 @@
 # Procesos y servicios
 
+Aprendizaje y administración de procesos y servicios en Linux.
+
 -----------
 
-# Procesos
+## Procesos
 
 Un proceso es una instancia de un programa que se encuentra en ejecución dentro del sistema.
 
@@ -12,7 +14,7 @@ Durante esta fase se han utilizado diferentes herramientas para consultar y admi
 
 -----------
 
-# Consulta de procesos
+## Consulta de procesos
 
 Se ha utilizado `ps` para consultar los procesos en ejecución.
 
@@ -22,7 +24,7 @@ Esta variante permite consultar una lista más amplia de procesos junto con info
 
 -----------
 
-# Monitorización de procesos
+## Monitorización de procesos
 
 Se han utilizado `top` y `htop` para observar los procesos del sistema de forma interactiva.
 
@@ -39,7 +41,7 @@ Estas herramientas permiten consultar información sobre:
 
 -----------
 
-# Búsqueda de procesos
+## Búsqueda de procesos
 
 Se ha utilizado `pgrep` para localizar procesos mediante su nombre y obtener su PID.
 
@@ -51,7 +53,7 @@ También se ha combinado `pgrep` con `ps` para consultar información específic
 
 -----------
 
-# Gestión de procesos
+## Gestión de procesos
 
 Se ha utilizado `sleep` para crear procesos de prueba en segundo plano.
 
@@ -65,7 +67,7 @@ Estas pruebas se han realizado sobre procesos de prueba para evitar afectar a se
 
 -----------
 
-# Servicios
+## Servicios
 
 Los servicios del sistema son procesos o conjuntos de procesos gestionados por el sistema de inicialización y administración de servicios.
 
@@ -75,7 +77,7 @@ La herramienta principal utilizada para su administración ha sido `systemctl`.
 
 -----------
 
-# Gestión de servicios
+## Gestión de servicios
 
 Se han practicado las principales operaciones de gestión de servicios:
 
@@ -92,7 +94,7 @@ Durante las pruebas se ha utilizado el servicio `cron`.
 
 -----------
 
-# Inicio automático de servicios
+## Inicio automático de servicios
 
 Se ha comprobado la diferencia entre iniciar un servicio y configurarlo para el arranque del sistema.
 
@@ -102,7 +104,7 @@ Esta diferencia permite controlar tanto el estado actual de un servicio como su 
 
 -----------
 
-# Registros del sistema
+## Registros del sistema
 
 Se ha utilizado `journalctl` para consultar los registros generados por los servicios.
 
@@ -114,7 +116,7 @@ Los registros permiten analizar la actividad de un servicio y ayudan a identific
 
 -----------
 
-# Procesos y servicios en Velatida Dive
+## Procesos y servicios en Velatida Dive
 
 Durante esta fase se ha establecido la diferencia entre la gestión de procesos y la gestión de servicios.
 

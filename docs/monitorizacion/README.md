@@ -10,7 +10,7 @@ En Velatida Dive se utilizan herramientas propias de Linux para consultar el est
 
 -----------
 
-# Aspectos monitorizados
+## Aspectos monitorizados
 
 La monitorización del servidor se divide en las siguientes áreas:
 
@@ -25,7 +25,7 @@ La monitorización del servidor se divide en las siguientes áreas:
 
 -----------
 
-# Herramientas utilizadas
+## Herramientas utilizadas
 
 Entre las principales herramientas utilizadas se encuentran:
 
@@ -43,7 +43,7 @@ También se utiliza un script Bash para reunir varias comprobaciones en un únic
 
 -----------
 
-# Integración con Velatida Dive
+## Integración con Velatida Dive
 
 La monitorización complementa el script `diagnostico-servidor.sh` desarrollado durante la fase de Bash.
 

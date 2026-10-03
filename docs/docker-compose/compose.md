@@ -10,7 +10,7 @@ El archivo permite describir los servicios, redes y volúmenes necesarios para e
 
 -----------
 
-# Ubicación
+## Ubicación
 
 El archivo se encuentra en:
 
@@ -18,7 +18,7 @@ El archivo se encuentra en:
 
 -----------
 
-# Configuración
+## Configuración
 
 El archivo `compose.yml` utilizado es:
 
@@ -56,12 +56,12 @@ networks:
 
 -----------
 
-# Servicios
+## Servicios
 
 La aplicación está formada por dos servicios:
 
-* `web`: servidor web Apache.
-* `db`: servidor de base de datos MariaDB.
+- `web`: servidor web Apache.
+- `db`: servidor de base de datos MariaDB.
 
 Cada servicio se define dentro de la sección `services`.
 
@@ -81,7 +81,7 @@ Los dos servicios están conectados a la red `velatida-net`, lo que permite que 
 
 -----------
 
-# Volumen
+## Volumen
 
 Se ha definido un volumen denominado `velatida-data`:
 
@@ -97,7 +97,7 @@ De esta forma, los datos de MariaDB se mantienen almacenados aunque el contenedo
 
 -----------
 
-# Red
+## Red
 
 Se ha definido una red Docker propia:
 
@@ -110,7 +110,7 @@ Esto permite que los contenedores se comuniquen entre ellos utilizando el nombre
 
 -----------
 
-# Gestión de la aplicación
+## Gestión de la aplicación
 
 La aplicación completa se inicia mediante:
 

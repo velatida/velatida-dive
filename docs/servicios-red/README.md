@@ -10,7 +10,7 @@ El servidor `dive-server` proporciona servicios a `dive-client`, que se comunica
 
 -----------
 
-# Infraestructura
+## Infraestructura
 
 La infraestructura está formada por dos máquinas virtuales conectadas mediante una red interna:
 
@@ -30,7 +30,7 @@ El servidor y el cliente disponen además de una interfaz NAT para acceder a Int
 
 -----------
 
-# Servicios implementados
+## Servicios implementados
 
 Durante esta fase se ha trabajado con los siguientes servicios:
 
@@ -41,7 +41,7 @@ Durante esta fase se ha trabajado con los siguientes servicios:
 
 -----------
 
-# SSH
+## SSH
 
 Se ha instalado y configurado OpenSSH Server en `dive-server`.
 
@@ -55,7 +55,7 @@ El servicio es gestionado mediante `systemd` y utiliza el puerto `TCP 22`.
 
 -----------
 
-# DNS
+## DNS
 
 Se ha instalado BIND9 en `dive-server` y se ha configurado un servicio DNS interno para la red de Velatida Dive.
 
@@ -68,7 +68,7 @@ Las consultas se han comprobado mediante herramientas como `dig` y `nslookup`.
 
 -----------
 
-# Servidor web
+## Servidor web
 
 Se ha instalado Apache HTTP Server en `dive-server`.
 
@@ -80,7 +80,7 @@ La página web se aloja en:
 
 -----------
 
-# Red interna
+## Red interna
 
 La comunicación entre las máquinas se realiza mediante la red interna `velatida-lan`.
 
@@ -93,7 +93,7 @@ Esta red permite que los servicios internos sean accesibles entre las máquinas 
 
 -----------
 
-# Herramientas utilizadas
+## Herramientas utilizadas
 
 * Ubuntu Linux
 * VirtualBox

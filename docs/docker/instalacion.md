@@ -10,7 +10,7 @@ Docker permite ejecutar aplicaciones y servicios dentro de contenedores aislados
 
 -----------
 
-# Instalación
+## Instalación
 
 Antes de realizar la instalación se ha actualizado la información de los paquetes:
 
@@ -28,7 +28,7 @@ Una vez finalizada la instalación se ha comprobado la versión:
 
 -----------
 
-# Servicio Docker
+## Servicio Docker
 
 Se ha comprobado el estado del servicio:
 
@@ -46,7 +46,7 @@ Y que se encuentra actualmente activo:
 
 -----------
 
-# Prueba de funcionamiento
+## Prueba de funcionamiento
 
 Para comprobar que Docker funciona correctamente se ha ejecutado un contenedor de prueba:
 
@@ -58,16 +58,16 @@ Esta prueba permite comprobar que Docker puede descargar una imagen, crear un co
 
 -----------
 
-# Comprobaciones
+## Comprobaciones
 
 Se han utilizado los siguientes comandos para consultar información básica:
 
-- docker --version
-- sudo systemctl status docker
-- sudo systemctl is-enabled docker
-- sudo systemctl is-active docker
-- sudo docker images
-- sudo docker ps -a
+- `docker --version`
+- `sudo systemctl status docker`
+- `sudo systemctl is-enabled docker`
+- `sudo systemctl is-active docker`
+- `sudo docker images`
+- `sudo docker ps -a`
 
 -----------
 

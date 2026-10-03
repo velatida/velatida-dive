@@ -10,7 +10,7 @@ Las redes Docker permiten controlar la comunicación entre contenedores y separa
 
 -----------
 
-# Redes disponibles
+## Redes disponibles
 
 Las redes existentes en el sistema se pueden consultar mediante:
 
@@ -20,7 +20,7 @@ Docker crea varias redes por defecto, entre ellas la red `bridge`.
 
 -----------
 
-# Creación de una red propia
+## Creación de una red propia
 
 Para Velatida Dive se ha creado una red independiente:
 
@@ -32,7 +32,7 @@ Se ha comprobado su existencia mediante:
 
 -----------
 
-# Contenedor conectado a la red
+## Contenedor conectado a la red
 
 El contenedor web se ha ejecutado utilizando la red creada:
 
@@ -48,7 +48,7 @@ La configuración de la red se puede consultar mediante:
 
 -----------
 
-# Comunicación entre contenedores
+## Comunicación entre contenedores
 
 Una de las ventajas de utilizar una red Docker propia es que los contenedores conectados a ella pueden comunicarse utilizando sus nombres.
 
@@ -60,7 +60,7 @@ Docker proporciona resolución de nombres para los contenedores conectados a la 
 
 -----------
 
-# Red Docker y red de VirtualBox
+## Red Docker y red de VirtualBox
 
 La red Docker y la red interna de VirtualBox cumplen funciones diferentes.
 

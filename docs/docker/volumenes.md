@@ -10,7 +10,7 @@ Los datos almacenados directamente dentro del sistema de archivos de un contened
 
 -----------
 
-# Volúmenes Docker
+## Volúmenes Docker
 
 Los volúmenes son gestionados por Docker y permiten almacenar datos fuera de la capa de escritura del contenedor.
 
@@ -28,7 +28,7 @@ La información del volumen se puede consultar mediante:
 
 -----------
 
-# Uso del volumen
+## Uso del volumen
 
 Se ha creado un contenedor utilizando el volumen:
 
@@ -62,7 +62,7 @@ el archivo continúa disponible.
 
 -----------
 
-# Persistencia
+## Persistencia
 
 La prueba demuestra que el volumen mantiene los datos aunque el contenedor que los utilizaba haya sido eliminado.
 

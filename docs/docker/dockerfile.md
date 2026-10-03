@@ -10,7 +10,7 @@ El objetivo es comprender cómo se construye una imagen personalizada a partir d
 
 -----------
 
-# Estructura
+## Estructura
 
 Se ha creado un directorio específico para la configuración:
 
@@ -23,7 +23,7 @@ El `Dockerfile` define las instrucciones necesarias para construir la imagen.
 
 -----------
 
-# Dockerfile
+## Dockerfile
 
 Se ha utilizado una imagen base de Apache y se ha añadido una página web sencilla del proyecto:
 
@@ -41,7 +41,7 @@ La instrucción `EXPOSE` documenta el puerto utilizado por el servicio web.
 
 -----------
 
-# Construcción de la imagen
+## Construcción de la imagen
 
 La imagen personalizada se ha construido desde el directorio que contiene el `Dockerfile`:
 
@@ -53,7 +53,7 @@ Una vez finalizada la construcción se ha comprobado que la imagen aparece entre
 
 -----------
 
-# Creación del contenedor
+## Creación del contenedor
 
 A partir de la imagen se ha creado un contenedor:
 
@@ -70,11 +70,11 @@ Se ha comprobado que el contenedor está activo:
 
 -----------
 
-# Comprobación
+## Comprobación
 
 El servicio se ha probado desde el propio servidor mediante:
 
-`curl http://localhost:8080`
+`curl http://localhost:8080` 
 
 La respuesta corresponde a la página web creada para la práctica de Velatida Dive.
 
